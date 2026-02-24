@@ -1,0 +1,17 @@
+# MATLAB autosave files
+*.asv
+*.autosave
+*.m~
+*.slxc
+*.mex*
+*.p
+
+# Simulink generated folders
+slprj/
+*_rtw/
+*.mdl.r*
+*.slxc
+
+# OS files
+.DS_Store
+Thumbs.db

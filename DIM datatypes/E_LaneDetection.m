@@ -1,0 +1,21 @@
+classdef E_LaneDetection < Simulink.IntEnumType
+        enumeration
+            LKA_No_Lines_Detected(0)
+            LKA_Line_Detected_PA(1)
+            LKA_Line_Detected_Left(2)
+            LKA_Line_Detected_Right(3)
+            LKA_Line_Detected_Both(4)
+            LKA_Intervention_Left(5)
+            LKA_Intervention_Right(6)
+            LKA_Intervention_Left_China(7)
+            LKA_Intervention_Right_China(8)
+            LKA_Intervention_Left_PA(9)
+            LKA_Intervention_Right_PA(10)
+            LKA_Intv_Left_Det_Right(11)
+            LKA_Intv_Right_Det_Left(12)
+            LKA_Intervention_Left_PA_China(13)
+            LKA_Intervention_Right_PA_China(14)
+            LKA_Intv_Left_Det_Right_China(15)
+            LKA_Intv_Right_Det_Left_China(16)
+        end
+end      
