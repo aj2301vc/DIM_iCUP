@@ -1,5 +1,5 @@
 % Set path
-addpath(genpath('C:\Users\AJOSHI11\OneDrive - Volvo Cars\Documents\MATLAB\Matlab'))
+addpath(genpath('C:\Users\AJOSHI11\OneDrive - Volvo Cars\Documents\MATLAB\DIM_iCUP'))
 
 % Model configuration etc
 CommonModelConfigurationCreate
@@ -19,6 +19,7 @@ PA_DSF_SteerWarning
 PA_DSF_TimeGapManual
 PA_StatusAndDouble
 PA_StatusAndOffOnValue
+PA_StatusAndOffOnChinaValue
 PA_StatusAnduIntAndOffOnValue
 PA_StatusAndValueAndDoubleAndDouble
 PA_StatusAndWarningAndOffOnValue

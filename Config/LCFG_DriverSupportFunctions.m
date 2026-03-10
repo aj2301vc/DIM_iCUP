@@ -192,6 +192,18 @@ LCFG_SLA_Timeout.DataType = 'double';
 LCFG_SLA_Timeout.Value = 3;
 LCFG_SLA_Timeout.CoderInfo.StorageClass = 'SimulinkGlobal';
 
+% Timeout used for ACPE
+LCFG_ACPE_Timeout = Simulink.Parameter; 
+LCFG_ACPE_Timeout.DataType = 'double';
+LCFG_ACPE_Timeout.Value = 2;
+LCFG_ACPE_Timeout.CoderInfo.StorageClass = 'SimulinkGlobal';
+
+% Timeout used for AEBS ALIVE TIMEOUT
+LCFG_AEBS_SignalTimeout = Simulink.Parameter; 
+LCFG_AEBS_SignalTimeout.DataType = 'double';
+LCFG_AEBS_SignalTimeout.Value = 5;
+LCFG_AEBS_SignalTimeout.CoderInfo.StorageClass = 'SimulinkGlobal';
+
 % Max limit for allowed TimeGap 
 LCFG_TG_MaxTG = Simulink.Parameter; 
 LCFG_TG_MaxTG.DataType = 'double';
