@@ -1,5 +1,5 @@
 % Set path
-addpath(genpath('C:\Users\AJOSHI11\OneDrive - Volvo Cars\Documents\MATLAB\DIM_iCUP'))
+addpath(genpath('C:\Users\AJOSHI11\OneDrive - Volvo Cars\Documents\MATLAB\DIM_iCUP_Matlab'))
 
 % Model configuration etc
 CommonModelConfigurationCreate
