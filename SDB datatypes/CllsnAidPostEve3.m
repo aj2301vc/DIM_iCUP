@@ -6,9 +6,6 @@ classdef CllsnAidPostEve3 < Simulink.IntEnumType
         CllsnAidPostEve3_IntvLgtAndIntvLat(3)
         CllsnAidPostEve3_BrkPls(4) 
         CllsnAidPostEve3_CtaBrkMsg(5)
-        CllsnAidPostEveArgus3_FAB(8)
-        CllsnAidPostEveArgus3_AcpeFrwd(9)
-        CllsnAidPostEveArgus3_AcpeRrwd(10)
 	end
 
     methods (Static)
