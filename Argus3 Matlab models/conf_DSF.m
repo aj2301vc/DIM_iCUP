@@ -23,6 +23,7 @@ PA_StatusAndOffOnChinaValue
 PA_StatusAnduIntAndOffOnValue
 PA_StatusAndValueAndDoubleAndDouble
 PA_StatusAndWarningAndOffOnValue
+PA_StatusAndDisplayMode
 StatusAndIntValue
 StatusAndLKAValue
 SWSInputData
