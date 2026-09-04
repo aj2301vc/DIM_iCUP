@@ -134,8 +134,10 @@ LCFG_ACC_Tmr2.CoderInfo.StorageClass = 'SimulinkGlobal';
 
 % Control parameter for DIM Navi Display" 
 LCFG_DisplayMode_CarCentric = Simulink.Parameter; 
-LCFG_DisplayMode_CarCentric.DataType = 'boolean';
-LCFG_DisplayMode_CarCentric.Value = true;
+LCFG_DisplayMode_CarCentric.DataType = 'uint8';
+LCFG_DisplayMode_CarCentric.Value = 1;
+LCFG_DisplayMode_CarCentric.Max = 1;
+LCFG_DisplayMode_CarCentric.Min = 0;
 LCFG_DisplayMode_CarCentric.CoderInfo.StorageClass = 'SimulinkGlobal';
 
 % Timer used for internal Adaptive Cruise Control status prediction 
