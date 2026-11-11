@@ -132,13 +132,11 @@ LCFG_ACC_Tmr2.DataType = 'double';
 LCFG_ACC_Tmr2.Value = 2;
 LCFG_ACC_Tmr2.CoderInfo.StorageClass = 'SimulinkGlobal';
 
-% Control parameter for DIM Navi Display" 
-LCFG_DisplayMode_CarCentric = Simulink.Parameter; 
-LCFG_DisplayMode_CarCentric.DataType = 'uint8';
-LCFG_DisplayMode_CarCentric.Value = 1;
-LCFG_DisplayMode_CarCentric.Max = 1;
-LCFG_DisplayMode_CarCentric.Min = 0;
-LCFG_DisplayMode_CarCentric.CoderInfo.StorageClass = 'SimulinkGlobal';
+% Control parameter for DIM Surround View Display" 
+CarCentricAvail = Simulink.Parameter; 
+CarCentricAvail.DataType = 'boolean';
+CarCentricAvail.Value = true;
+CarCentricAvail.CoderInfo.StorageClass = 'SimulinkGlobal';
 
 % Timer used for internal Adaptive Cruise Control status prediction 
 LCFG_ACC_IntStsDelay = Simulink.Parameter; 
@@ -337,6 +335,12 @@ LCFG_ActualVehSpdTop = Simulink.Parameter;
 LCFG_ActualVehSpdTop.DataType = 'double';
 LCFG_ActualVehSpdTop.Value = 260;
 LCFG_ActualVehSpdTop.CoderInfo.StorageClass = 'SimulinkGlobal';
+
+%Timeout used for HUD FCW
+LCFG_HUD_FCWTimeout = Simulink.Parameter; 
+LCFG_HUD_FCWTimeout.DataType = 'double';
+LCFG_HUD_FCWTimeout.Value = 1;
+LCFG_HUD_FCWTimeout.CoderInfo.StorageClass = 'SimulinkGlobal';
 
 %Used for toggle time between ready indication and drivemode or powermeter
 LCFG_ReadyDMToggleTime = Simulink.Parameter;

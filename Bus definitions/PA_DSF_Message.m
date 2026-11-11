@@ -29,8 +29,6 @@ elems(2).Max = [];
 elems(2).DocUnits = '';
 elems(2).Description = '';
 
-
-
 PA_DSF_Message = Simulink.Bus;
 PA_DSF_Message.HeaderFile = '';
 PA_DSF_Message.Description = '';

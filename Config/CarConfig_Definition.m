@@ -318,11 +318,19 @@
           cc_param_267.Value = 2;
           cc_param_267.CoderInfo.StorageClass = 'SimulinkGlobal';
 
+% Car Config for Surround View
+          cc_param_278 = Simulink.Parameter;
+          cc_param_278.DataType = 'uint8';
+          cc_param_278.Min = 1;
+          cc_param_278.Max = 2;
+          cc_param_278.Value = 2;
+          cc_param_278.CoderInfo.StorageClass = 'SimulinkGlobal'; 
+
 % Car Config for DRIVER MONITOR CAMERA
           cc_param_298 = Simulink.Parameter;
           cc_param_298.DataType = 'uint8';
           cc_param_298.Value = 2;
-          cc_param_298.CoderInfo.StorageClass = 'SimulinkGlobal';
+          cc_param_298.CoderInfo.StorageClass = 'SimulinkGlobal';      
           
 % Car Config for Argus3
           cc_param_311 = Simulink.Parameter;
